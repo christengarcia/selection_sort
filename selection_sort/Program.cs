@@ -35,7 +35,12 @@ namespace selection_sort
                 array[j] = tmp;
             }
 
-
+            Console.WriteLine("The Array After Selection Sort is: ");
+            for (int i = 0; i < 10; i++)
+            {
+                Console.WriteLine(array[i]);
+            }
+            Console.ReadLine();
         }
     }
 }
